@@ -728,10 +728,6 @@ func (operation *Operation) ParseRouterComment(commentLine string, deprecated bo
 		Deprecated: deprecated,
 	}
 
-	if _, ok := allMethod[signature.HTTPMethod]; !ok {
-		return fmt.Errorf("invalid method: %s", signature.HTTPMethod)
-	}
-
 	operation.RouterProperties = append(operation.RouterProperties, signature)
 
 	return nil

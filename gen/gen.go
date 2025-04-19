@@ -15,8 +15,8 @@ import (
 	"text/template"
 	"time"
 
+	"github.com/DeltaLaboratory/swag"
 	"github.com/go-openapi/spec"
-	"github.com/swaggo/swag"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 	"sigs.k8s.io/yaml"

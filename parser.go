@@ -106,6 +106,7 @@ var allMethod = map[string]struct{}{
 	http.MethodOptions: {},
 	http.MethodHead:    {},
 	http.MethodPatch:   {},
+	"QUERY":            {},
 }
 
 // Parser implements a parser for Go source files.
